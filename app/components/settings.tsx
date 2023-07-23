@@ -634,19 +634,19 @@ export function Settings() {
 
           {!accessStore.hideUserApiKey ? (
             <>
-              <ListItem
-                title={Locale.Settings.Endpoint.Title}
-                subTitle={Locale.Settings.Endpoint.SubTitle}
-              >
-                <input
-                  type="text"
-                  value={accessStore.openaiUrl}
-                  placeholder="https://api.nextweb.fun/openai"
-                  onChange={(e) =>
-                    accessStore.updateOpenAiUrl(e.currentTarget.value)
-                  }
-                ></input>
-              </ListItem>
+              {/*<ListItem*/}
+              {/*  title={Locale.Settings.Endpoint.Title}*/}
+              {/*  subTitle={Locale.Settings.Endpoint.SubTitle}*/}
+              {/*>*/}
+              {/*  <input*/}
+              {/*    type="text"*/}
+              {/*    value={accessStore.openaiUrl}*/}
+              {/*    placeholder="https://api.nextweb.fun/openai"*/}
+              {/*    onChange={(e) =>*/}
+              {/*      accessStore.updateOpenAiUrl(e.currentTarget.value)*/}
+              {/*    }*/}
+              {/*  ></input>*/}
+              {/*</ListItem>*/}
               <ListItem
                 title={Locale.Settings.Token.Title}
                 subTitle={Locale.Settings.Token.SubTitle}
