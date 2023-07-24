@@ -121,7 +121,7 @@ export function SideBar(props: { className?: string }) {
           ChatGPT
         </div>
         <div className={styles["sidebar-sub-title"]} style={{ marginTop: 10 }}>
-          欢迎使用ChatGPT,关注微信公众号：学习乐吧， 了解更多AI资讯与玩法。
+          基于OpenAi，速度更快，体验更好！
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
